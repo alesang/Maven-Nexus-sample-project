@@ -17,7 +17,7 @@ pipeline {
         always {
             archiveArtifacts artifacts: '/**/*.jar', fingerprint: true
             //junit '/**/*.xml'
-            //a
+            
         }
     }
 }
